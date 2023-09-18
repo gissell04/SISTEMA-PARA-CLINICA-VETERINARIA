@@ -1,0 +1,118 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content{
+ width: 1200px;
+ margin: 0 auto;
+ padding: 20px 0;
+}
+
+
+.clearfix{
+
+    clear: both;
+    float: none ;
+}
+
+header{
+width: 100%;
+background: #9bc19b ;
+height: 100px;
+}
+
+header img{
+float: left;
+height: 90px ;
+width: auto;
+}
+
+nav{
+float: right;
+}
+
+nav a{
+ padding: 10px 20px;   
+ color:black;
+ text-decoration: none;
+ line-height: 50px;
+ font-weight: bold;
+ border-radius:5px;
+
+transition: all ls;
+}
+
+nav a:hover{
+    background:white ;
+    color:black;
+}
+
+.half{
+width: 50%;
+float: left;
+text-align: center;
+}
+
+.half img{
+ width: 100%;  
+ height:auto; 
+}
+
+.half h1{
+    margin-top:300px;
+    line-height: 70px;
+}
+
+.descripcionLaHuellita{
+ width: 100%;
+ background:cornsilk;
+ padding: 70px 0;
+ text-align:center;
+}
+
+.descripcionLaHuellita h1{
+line-height: 50px;
+}
+
+.descripcionLaHuellita h3{
+line-height: 50px;
+}
+
+.descripcionLaHuellita p{
+    line-height: 30px;
+
+}
+
+.servicios{
+width: 980px;
+list-style: none;
+margin: 0 auto ;
+
+}
+
+.Servicios li{
+float: left;
+width: 200px;
+height: 200px;
+text-align:center;
+background:cornsilk ;
+margin:20px;
+border-radius: 5px;
+}
+
+footer{
+width: 100%;
+background: #9bc19b;
+padding: 40px 0;
+text-align: center;
+}
+
+.Servicios li img{
+height: 70px;
+width: auto;
+margin :10px auto;
+display:block;
+}
